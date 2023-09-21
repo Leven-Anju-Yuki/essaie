@@ -1,18 +1,151 @@
-h1 {
+/*-----------HEADER-----------*/
+nav ul {
+  display: flex;
+  /* Utilise Flexbox pour aligner les éléments horizontalement */
+  justify-content: space-around;
+  /* Répartit l'espace entre les éléments */
+  align-items: center;
+  /* Centre les éléments verticalement */
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  height: 50px;
+  padding: 10px;
+  width: 90%;
+  margin-left: 25px;
+}
+
+/* Style des éléments de la liste de la navigation */
+nav ul li {
+  display: flex;
+  /* Utilise Flexbox pour aligner les éléments horizontalement */
+  align-items: center;
+  /* Centre les éléments verticalement */
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  background-color: rgb(50, 139, 223);
+}
+
+/* Style des liens dans la navigation */
+nav ul li a {
+  display: flex;
+  /* Utilise Flexbox pour aligner les éléments horizontalement */
+  justify-content: center;
+  /* Centre le contenu horizontalement */
+  align-items: center;
+  /* Centre le contenu verticalement */
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  padding: 2px;
+  width: 100%;
+}
+
+/* Style des liens survolés */
+nav a:hover {
+  color: rgb(255, 0, 0);
+}
+/*-----------FIN HEADER-----------*/
+
+/*-----------INDEX-----------*/
+.index h1 {
   background-color: green;
 }
-.encadrer {
+.index .encadrer {
   border: 1px solid black;
   padding: 5px;
 }
-.souligner {
+.index .souligner {
   text-decoration: underline;
 }
-p {
+.index p {
   color: rgba(201, 51, 51, 0.664);
   font-size: 1.2em;
 }
 
-img {
+.index img {
   background-color: rgba(201, 51, 51, 0.664);
 }
+/*-----------FIN INDEX-----------*/
+
+/*-----------PROFIL-----------*/
+/* Style des sections */
+section {
+  display: flex;
+  /* Utilise Flexbox pour aligner les éléments horizontalement */
+  flex-direction: row;
+  /* Aligne les éléments horizontalement */
+  align-items: center;
+  /* Centre les éléments verticalement */
+  width: 90%;
+  margin-bottom: 2em;
+}
+
+/* Style des articles */
+article {
+  display: flex;
+  /* Utilise Flexbox pour aligner les éléments horizontalement */
+  flex-direction: column;
+  /* Aligne les éléments verticalement */
+  justify-content: space-around;
+  /* Répartit l'espace entre les éléments */
+  align-items: stretch;
+  /* Étire les éléments horizontalement */
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* Style de la colonne latérale */
+img {
+  width: 50%;
+  border-radius: 5px;
+}
+.profil aside {
+  width: 50%;
+}
+
+.profil section article h2 {
+  padding: 30% 0 15% 0;
+  color: grey;
+  margin: auto;
+  /* border: solid 2px blue; */
+}
+.profil aside {
+  padding-bottom: 160px;
+}
+.profil section aside h2 {
+  margin-right: 40px;
+}
+.profil section aside p {
+  margin: -15px 50px 0 0;
+  color: grey;
+}
+.profil li {
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+.profil article div {
+  display: flex;
+}
+.profil button {
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 30px;
+}
+.profil article .cancel {
+  color: rgb(50, 139, 223);
+  border: solid 1px rgb(50, 139, 223);
+  width: 40%;
+}
+
+.profil article .save {
+  background-color: rgb(50, 139, 223);
+  color: white;
+  border: solid 1px rgb(50, 139, 223);
+  width: 40%;
+}
+/*-----------FIN PROFIL-----------*/
