@@ -12,7 +12,7 @@ nav ul {
   height: 50px;
   padding: 10px;
   width: 90%;
-  margin-left: 25px;
+  margin-left: 70px;
 }
 
 /* Style des éléments de la liste de la navigation */
@@ -100,12 +100,16 @@ article {
 }
 
 /* Style de la colonne latérale */
+aside {
+  width: 50%;
+}
+
 img {
   width: 50%;
   border-radius: 5px;
 }
 .profil aside {
-  width: 50%;
+  width: 40%;
 }
 
 .profil section article h2 {
@@ -115,13 +119,13 @@ img {
   /* border: solid 2px blue; */
 }
 .profil aside {
-  padding-bottom: 160px;
+  padding-bottom: 170px;
 }
 .profil section aside h2 {
-  margin-right: 40px;
+  margin-right: 160px;
 }
 .profil section aside p {
-  margin: -15px 50px 0 0;
+  margin: -15px 170px 0 0;
   color: grey;
 }
 .profil li {
@@ -149,3 +153,55 @@ img {
   width: 40%;
 }
 /*-----------FIN PROFIL-----------*/
+/*-----------DÉBUT TABLETTE-----------*/
+@media screen and (max-width: 1024px) {
+  img {
+    width: 50%;
+    border-radius: 5px;
+  }
+  .profil aside {
+    width: 50%;
+  }
+
+  .profil section article h2 {
+    padding: 30% 0 15% 0;
+    color: grey;
+    margin: auto;
+    /* border: solid 2px blue; */
+  }
+  .profil aside {
+    padding-bottom: 160px;
+  }
+  .profil section aside h2 {
+    margin-right: 40px;
+  }
+  .profil section aside p {
+    margin: -15px 50px 0 0;
+    color: grey;
+  }
+  .profil li {
+    list-style-type: none;
+    padding-bottom: 15px;
+  }
+  .profil article div {
+    display: flex;
+  }
+  .profil button {
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 30px;
+  }
+  .profil article .cancel {
+    color: rgb(50, 139, 223);
+    border: solid 1px rgb(50, 139, 223);
+    width: 40%;
+  }
+
+  .profil article .save {
+    background-color: rgb(50, 139, 223);
+    color: white;
+    border: solid 1px rgb(50, 139, 223);
+    width: 40%;
+  }
+}
+/*-----------FIN TABLETTE-----------*/
