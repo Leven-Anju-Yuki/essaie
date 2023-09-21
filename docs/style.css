@@ -133,7 +133,6 @@ aside {
   padding-bottom: 15px;
 }
 .profil section article ul {
-  list-style-type: none;
   margin-right: 240px;
 }
 .profil article div {
@@ -172,22 +171,23 @@ aside {
 
 /*-----------FIN PROFIL-----------*/
 /*-----------DÉBUT TABLETTE-----------*/
-nav ul {
-  display: flex;
-  /* Utilise Flexbox pour aligner les éléments horizontalement */
-  justify-content: space-around;
-  /* Répartit l'espace entre les éléments */
-  align-items: center;
-  /* Centre les éléments verticalement */
-  list-style-type: none;
-  text-align: center;
-  position: relative;
-  height: 50px;
-  padding: 10px;
-  width: 90%;
-  margin-left: 25px;
-}
+
 @media screen and (max-width: 1024px) {
+  nav ul {
+    display: flex;
+    /* Utilise Flexbox pour aligner les éléments horizontalement */
+    justify-content: space-around;
+    /* Répartit l'espace entre les éléments */
+    align-items: center;
+    /* Centre les éléments verticalement */
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    height: 50px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 25px;
+  }
   img {
     width: 50%;
     border-radius: 5px;
@@ -203,7 +203,7 @@ nav ul {
     /* border: solid 2px blue; */
   }
   .profil aside {
-    padding-bottom: 160px;
+    padding-bottom: 450px;
   }
   .profil section aside h2 {
     margin-right: 40px;
@@ -215,6 +215,9 @@ nav ul {
   .profil section article li {
     list-style-type: none;
     padding-bottom: 15px;
+  }
+  .profil section article ul {
+    margin-right: 10px;
   }
   .profil article div {
     display: flex;
