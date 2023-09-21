@@ -128,9 +128,13 @@ aside {
   margin: -15px 170px 0 0;
   color: grey;
 }
-.profil li {
+.profil section article li {
   list-style-type: none;
   padding-bottom: 15px;
+}
+.profil section article ul {
+  list-style-type: none;
+  margin-right: 240px;
 }
 .profil article div {
   display: flex;
@@ -208,7 +212,7 @@ nav ul {
     margin: -15px 50px 0 0;
     color: grey;
   }
-  .profil li {
+  .profil section article li {
     list-style-type: none;
     padding-bottom: 15px;
   }
