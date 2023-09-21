@@ -1,14 +1,17 @@
-body{
-    background-color: green;
+body {
+  background-color: green;
 }
-.encadrer{
-    border: 1px solid black;
-    padding:5px;
+.encadrer {
+  border: 1px solid black;
+  padding: 5px;
 }
-.souligner{
-    text-decoration: underline;
+.souligner {
+  text-decoration: underline;
 }
-p{
-    color: wheat;
-    font-size: 1.2em;
+p {
+  color: wheat;
+  font-size: 1.2em;
+}
+image {
+  background-color: bisque;
 }
