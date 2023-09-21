@@ -116,7 +116,7 @@ aside {
   padding: 30% 0 15% 0;
   color: grey;
   margin: auto;
-  /* border: solid 2px blue; */
+  text-decoration: underline rgb(50, 139, 223);
 }
 .profil aside {
   padding-bottom: 170px;
@@ -152,8 +152,37 @@ aside {
   border: solid 1px rgb(50, 139, 223);
   width: 40%;
 }
+.profil article .save:hover {
+  background-color: white;
+  color: rgb(50, 139, 223);
+  border: solid 1px rgb(50, 139, 223);
+  width: 40%;
+}
+
+.profil article .cancel:hover {
+  background-color: rgb(50, 139, 223);
+  color: white;
+  border: solid 1px rgb(50, 139, 223);
+  width: 40%;
+}
+
 /*-----------FIN PROFIL-----------*/
 /*-----------DÉBUT TABLETTE-----------*/
+nav ul {
+  display: flex;
+  /* Utilise Flexbox pour aligner les éléments horizontalement */
+  justify-content: space-around;
+  /* Répartit l'espace entre les éléments */
+  align-items: center;
+  /* Centre les éléments verticalement */
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  height: 50px;
+  padding: 10px;
+  width: 90%;
+  margin-left: 25px;
+}
 @media screen and (max-width: 1024px) {
   img {
     width: 50%;
