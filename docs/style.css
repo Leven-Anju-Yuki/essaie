@@ -169,7 +169,52 @@ aside {
   width: 40%;
 }
 
-/*-----------FIN PROFIL-----------*/
+/*-----------FIN PROFIL-----------*/ /*-----------DÉBUT DE LA PAGE CONTACT-----------*/
+/* Style des sections */
+.contact .deuxieme {
+  display: flex;
+  /* Utilise Flexbox pour aligner les éléments horizontalement */
+  flex-direction: row;
+  /* Aligne les éléments horizontalement */
+  align-items: center;
+  /* Centre les éléments verticalement */
+  width: 90%;
+  margin-bottom: 2em;
+}
+
+/* Style des articles */
+article {
+  display: flex;
+  /* Utilise Flexbox pour aligner les éléments horizontalement */
+  flex-direction: column;
+  /* Aligne les éléments verticalement */
+  justify-content: space-around;
+  /* Répartit l'espace entre les éléments */
+  align-items: stretch;
+  /* Étire les éléments horizontalement */
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* Style de la colonne latérale */
+aside {
+  width: 50%;
+}
+.contact .premier {
+  text-align: center;
+}
+.contact h1 {
+  text-transform: uppercase;
+}
+.contact .maman {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*-----------FIN DE LA PAGE CONTACT-----------*/
+
 /*-----------DÉBUT TABLETTE-----------*/
 
 @media screen and (max-width: 1024px) {
