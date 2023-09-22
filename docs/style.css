@@ -169,7 +169,8 @@ aside {
   width: 40%;
 }
 
-/*-----------FIN PROFIL-----------*/ /*-----------DÉBUT DE LA PAGE CONTACT-----------*/
+/*-----------FIN PROFIL-----------*/
+/*-----------DÉBUT DE LA PAGE CONTACT-----------*/
 /* Style des sections */
 .contact .deuxieme {
   display: flex;
@@ -193,8 +194,7 @@ article {
   align-items: stretch;
   /* Étire les éléments horizontalement */
   width: 50%;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 20px;
+  background-color: blue;
   padding: 10px;
 }
 
@@ -210,8 +210,36 @@ aside {
 }
 .contact .maman {
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.contact img {
+  width: 50%;
+  height: 25%;
+  margin-bottom: -1em;
+}
+.contact .maman .adresse {
+  width: 25%;
+  margin-right: 3em;
+  margin-bottom: 2em;
+}
+.contact .maman .email {
+  width: 25%;
+}
+.contact .maman .tel {
+  width: 25%;
+  margin-right: 3em;
+}
+.contact .maman .contactus {
+  width: 25%;
+  margin-bottom: -3em;
+}
+.contact .maman .contactus img {
+  margin-bottom: 4em;
+}
+
+.contact section .form {
+  display: flex;
+  flex-direction: row;
 }
 /*-----------FIN DE LA PAGE CONTACT-----------*/
 
